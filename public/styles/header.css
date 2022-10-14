@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Righteous-Regular;
+    src: url("../fonts/Righteous-Regular.ttf");
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-width: 100%;
+    height: 100%;
+    background-color: #a63232;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: Righteous-Regular;
+}
+
+header {
+    background-color: #d94848;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    color: #ffffff;
+}
+
+header h2:hover {
+    cursor: pointer;
+}
+
+#logo {
+    height: 48px;
+    width: 290px;
+}
+
+.bol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 130px;
+    height: 50px;
+    margin: 10px 5px;
+    padding-top: 10px;
+}
+
+#azbol {
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #6894cc;
+    border: 5px solid #ffffff;
+}
+
+#vermbol {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #f94848;
+    border: solid 2px #000;
+}
+
+#amabol {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fcab1d;
+    border: solid 2px #000;
+}
+
+#verdbol {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #87c13a;
+    border: solid 2px #000;
+}
+
+#sair {
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#comple {
+    width: 54vw;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    border-top: 21px solid #d94848;
+    border-right: 20px solid transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}

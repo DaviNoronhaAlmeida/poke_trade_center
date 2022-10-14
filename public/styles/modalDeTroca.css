@@ -1,0 +1,16 @@
+#modalAnunciar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+
+#modalAnunciar p {
+    font-size: 20px;
+}
+
+#intencao {
+    width: 340px;
+    border: solid 1px #6c757d;
+}

@@ -1,0 +1,65 @@
+#center {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+#btoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    gap: 200px;
+}
+
+#btoes button {
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 250px;
+    background-color: #87c13a;
+    color: #fff;
+    font-weight: 100;
+    font-size: 17px;
+    font-family: Righteous-Regular;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#ftPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 175px;
+    margin-left: 190px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+#logoUso {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px #000;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+#infoPerf {
+    height: 190px;
+    width: auto;
+    max-width: 550px;
+    color: #fffafa;
+    font-size: 26px;
+    font-family: Righteous-Regular;
+    margin-top: -10px;
+    margin-left: 80px;
+}
